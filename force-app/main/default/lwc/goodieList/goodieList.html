@@ -1,3 +1,13 @@
 <template>
-    
+  <ul>
+    <template for:item="goodie" for:each={goodies}>
+      <li key={goodie.id}>
+        <div>
+          <h3>{goodie.name}</h3>
+          <div>{goodie.price}</div>
+          <div>{goodie.image_url}</div>
+        </div>
+      </li>
+    </template>
+  </ul>
 </template>

@@ -9,7 +9,7 @@
             "changeTime": 1559168340793,
             "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
             "isMetadataFile": false,
-            "state": "u",
+            "state": "n",
             "isWorkspace": false,
             "isArtifactRoot": true
         }
@@ -24,7 +24,7 @@
             "changeTime": 1559168340793,
             "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
             "isMetadataFile": false,
-            "state": "u",
+            "state": "n",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -32,14 +32,14 @@
     [
         "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
-            "modifiedTime": 1559170360055,
-            "changeTime": 1559170360055,
-            "contentHash": "1e35a62340213d8e00bffe6965fa244c5d393f71"
+            "modifiedTime": 1559170032230,
+            "changeTime": 1559170032230,
+            "contentHash": "20d76a194f4416d8a459d1d9c646a4c61466f613",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -52,7 +52,7 @@
             "changeTime": 1559168340794,
             "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
             "isMetadataFile": false,
-            "state": "u",
+            "state": "n",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -67,7 +67,7 @@
             "changeTime": 1559168601869,
             "contentHash": "9b5997dccf047c302cb132f2b28f78a8be07b32e",
             "isMetadataFile": false,
-            "state": "u",
+            "state": "n",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -82,7 +82,7 @@
             "changeTime": 1559168601885,
             "contentHash": "261f11c76731e3b561be37e78eacc62cf990dfee",
             "isMetadataFile": false,
-            "state": "u",
+            "state": "n",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -97,7 +97,7 @@
             "changeTime": 1559168601887,
             "contentHash": "f77f405276fce2c457b8423303ffccb5a455abce",
             "isMetadataFile": false,
-            "state": "u",
+            "state": "n",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -112,7 +112,7 @@
             "changeTime": 1559168601877,
             "contentHash": "d08952e903450c5d135383d293ffb819008c756b",
             "isMetadataFile": false,
-            "state": "u",
+            "state": "n",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -127,7 +127,7 @@
             "changeTime": 1559168601881,
             "contentHash": "e6fcd4e25cdfb49c61449f5dbe38268a0b1946b1",
             "isMetadataFile": true,
-            "state": "u",
+            "state": "n",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -142,7 +142,7 @@
             "changeTime": 1559169502564,
             "contentHash": "4a73e8ffb7ba37e044c1e837bf5fcc55e61ae4e3",
             "isMetadataFile": false,
-            "state": "u",
+            "state": "n",
             "isWorkspace": true,
             "isArtifactRoot": false
         }
@@ -353,45 +353,6 @@
             "contentHash": "2064b87a1cc619cada020ac0f99da2f620e97527",
             "isMetadataFile": false,
             "state": "u"
-        }
-    ],
-    [
-        "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\classes",
-        {
-            "state": "u",
-            "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\classes",
-            "isDirectory": true,
-            "isMetadataFile": false,
-            "size": 0,
-            "modifiedTime": 1559170360111,
-            "changeTime": 1559170360111,
-            "contentHash": "f011cb5aa65f45d3d3f473ee2cdd6d7752571e84"
-        }
-    ],
-    [
-        "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\classes\\GoodieListAuraService.cls",
-        {
-            "state": "u",
-            "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\classes\\GoodieListAuraService.cls",
-            "isDirectory": false,
-            "isMetadataFile": false,
-            "size": 354,
-            "modifiedTime": 1559170632192,
-            "changeTime": 1559170632192,
-            "contentHash": "07735275908d185c35cca068e85972c2be7ddf82"
-        }
-    ],
-    [
-        "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\classes\\GoodieListAuraService.cls-meta.xml",
-        {
-            "state": "u",
-            "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\classes\\GoodieListAuraService.cls-meta.xml",
-            "isDirectory": false,
-            "isMetadataFile": true,
-            "size": 199,
-            "modifiedTime": 1559170360112,
-            "changeTime": 1559170360112,
-            "contentHash": "e384ccaef7ccc05a1e7ff308c870766e74b8353b"
         }
     ]
 ]
