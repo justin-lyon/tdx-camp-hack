@@ -1,7 +1,11 @@
 {
     "compilerOptions": {
         "baseUrl": ".",
-        "paths": {},
+        "paths": {
+            "c/goodieList": [
+                "goodieList/goodieList.js"
+            ]
+        },
         "experimentalDecorators": true
     },
     "include": [
