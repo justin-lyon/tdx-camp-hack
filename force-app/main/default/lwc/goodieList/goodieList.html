@@ -1,13 +1,23 @@
 <template>
-  <ul>
-    <template for:item="goodie" for:each={goodies}>
-      <li key={goodie.id}>
-        <div>
-          <h3>{goodie.name}</h3>
-          <div>{goodie.price}</div>
-          <div>{goodie.image_url}</div>
-        </div>
-      </li>
-    </template>
-  </ul>
+  <lightning-card title="Goodies">
+    <div class="slds-p-horizontal_medium">
+      <ul if:true={goodies}>
+        <template for:item="goodie" for:each={goodies}>
+          <li key={goodie.id}>
+            <div>
+              <h3>{goodie.name}</h3>
+              <div>{goodie.price}</div>
+              <div>{goodie.image_url}</div>
+            </div>
+          </li>
+        </template>
+      </ul>
+      <div if:false={goodies}>
+        Loading...
+      </div>
+      <div if:true={error}>
+        Error retrieving the Goodies.
+      </div>
+    </div>
+  </lightning-card>
 </template>
