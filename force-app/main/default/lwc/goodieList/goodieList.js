@@ -1,13 +1,19 @@
+import { CurrentPageReference } from 'lightning/navigation'
+import { ShowToastEvent } from 'lightning/platformShowToastEvent'
 import { LightningElement, api, wire } from 'lwc'
 import getGoodies from '@salesforce/apex/GoodieListAuraService.getGoodies'
 import { createRecord } from 'lightning/uiRecordApi'
+import { fireEvent } from 'c/pubsub'
 export default class GoodieList extends LightningElement {
   @api recordId
   @api goodies
   @api selectedGoodieId
+  @api selectedGoodie
   @api error
 
-  @wire(getGoodies, {})
+  @wire(CurrentPageReference) pageRef
+
+  @wire(getGoodies)
   wireGoodies ({ error, data }) {
     this.goodies = []
     if (data) {
@@ -35,15 +41,37 @@ export default class GoodieList extends LightningElement {
     }
 
     createRecord(goodieRecord)
-      .then(data => {
-        console.log('success', data)
-      })
-      .catch(err => {
-        console.error('error saving goodie', JSON.stringify(err))
-      })
+      .then(success => this.onGoodieAdded(success, this))
+      .catch(error => this.onGoodieFailed(error, this))
+  }
+
+  onGoodieAdded (success, thisArg) {
+    const name = success.fields.Name.value
+    const event = new ShowToastEvent({
+      title: 'Success',
+      variant: 'success',
+      message: 'Added ' + name + '.'
+    })
+    thisArg.dispatchEvent(event)
+  }
+
+  onGoodieFailed (error, thisArg) {
+    console.error('Error adding Goodie: ', error)
+    const event = new ShowToastEvent({
+      title: 'Error',
+      variant: 'error',
+      message: 'Sorry, we couldn\'t add your Goodie.'
+    })
+    thisArg.dispatchEvent(event)
   }
 
   setSelected (event) {
     this.selectedGoodieId = event.detail
+    this.selectedGoodie = this.goodies.find(g => g.id === this.selectedGoodieId)
+    this.fireGoodie()
+  }
+
+  fireGoodie () {
+    fireEvent(this.pageRef, 'selectedGoodie', { goodie: this.selectedGoodie })
   }
 }

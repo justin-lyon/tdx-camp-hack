@@ -1,12 +1,20 @@
-import { LightningElement, api } from 'lwc';
+import { CurrentPageReference } from 'lightning/navigation'
+import { LightningElement, api, wire } from 'lwc';
+import { registerListener, unregisterListener } from 'c/pubsub'
 
 export default class GoodieDetail extends LightningElement {
-  @api goodie = {
-    name: 'Cody Plush',
-    price: 50,
-    available: true,
-    image_url: 'https://goodies-list.herokuapp.com/images/codey.jpg'
+  @wire(CurrentPageReference) pageRef
+  @api goodie
+
+  goodieListener (event) {
+    this.goodie = event.goodie
   }
 
+  connectedCallback () {
+    registerListener('selectedGoodie', this.goodieListener, this)
+  }
 
+  disconnectedCallback () {
+    unregisterListener('selectedGoodie', this.goodieListener, this)
+  }
 }

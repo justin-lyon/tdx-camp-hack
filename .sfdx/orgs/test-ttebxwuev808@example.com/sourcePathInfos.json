@@ -192,15 +192,15 @@
     [
         "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1560182634709,
             "changeTime": 1560182634709,
-            "isWorkspace": false,
-            "contentHash": "f67cf20ec71e779914d6687221c68d8b37b1b7f8"
+            "contentHash": "f67cf20ec71e779914d6687221c68d8b37b1b7f8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -235,15 +235,15 @@
     [
         "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\goodieList\\goodieList.js",
         {
+            "state": "u",
             "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\goodieList\\goodieList.js",
             "isDirectory": false,
-            "size": 1130,
-            "modifiedTime": 1560182015540,
-            "changeTime": 1560182015540,
-            "contentHash": "678ab4e420bdb0750ea9d0a35218f20a95c44a69",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "size": 2025,
+            "modifiedTime": 1560184390108,
+            "changeTime": 1560184390108,
+            "isWorkspace": false,
+            "contentHash": "17b1a5870a1e29958d62e35c5030b9e7e1872aa8"
         }
     ],
     [
@@ -930,105 +930,105 @@
     [
         "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\goodieDetail",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\goodieDetail",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1560182450006,
             "changeTime": 1560182450006,
-            "contentHash": "a55157db20b4d59d45bf187b5a29180c0a31a055"
+            "contentHash": "a55157db20b4d59d45bf187b5a29180c0a31a055",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\pubsub",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\pubsub",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1560182634720,
             "changeTime": 1560182634720,
-            "contentHash": "8e45ffbb1b8ab72496c07074c5b9dd4caf172cd6"
+            "contentHash": "8e45ffbb1b8ab72496c07074c5b9dd4caf172cd6",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\goodieDetail\\goodieDetail.html",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\goodieDetail\\goodieDetail.html",
             "isDirectory": false,
+            "size": 718,
+            "modifiedTime": 1560183557573,
+            "changeTime": 1560183557573,
+            "contentHash": "d520e67c9a323db6b34f7bc2920897868ab11c8a",
             "isMetadataFile": false,
-            "size": 114,
-            "modifiedTime": 1560182600417,
-            "changeTime": 1560182600417,
-            "contentHash": "849353ff66e2a0fbf39e5a898b76af396aa181da"
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\goodieDetail\\goodieDetail.js",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\goodieDetail\\goodieDetail.js",
             "isDirectory": false,
+            "size": 550,
+            "modifiedTime": 1560183318523,
+            "changeTime": 1560183131717,
+            "contentHash": "0be5f74e85636ddab25329b94bdb7f7a622f496e",
             "isMetadataFile": false,
-            "size": 261,
-            "modifiedTime": 1560182549741,
-            "changeTime": 1560182549741,
-            "contentHash": "e0a4770fda20448cbb17d5ed967bc03b515a8ca0"
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\goodieDetail\\goodieDetail.js-meta.xml",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\goodieDetail\\goodieDetail.js-meta.xml",
             "isDirectory": false,
+            "size": 575,
+            "modifiedTime": 1560183189771,
+            "changeTime": 1560183189771,
+            "contentHash": "6d223eb83ef26ef1669f0d711dcc73a4f18e7959",
             "isMetadataFile": true,
-            "size": 227,
-            "modifiedTime": 1560182450003,
-            "changeTime": 1560182450003,
-            "contentHash": "cc1e33f76f4559967089901ab100a5c945625f75"
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\pubsub\\pubsub.html",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\pubsub\\pubsub.html",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 27,
             "modifiedTime": 1560182634722,
             "changeTime": 1560182634722,
-            "contentHash": "f77f405276fce2c457b8423303ffccb5a455abce"
+            "contentHash": "f77f405276fce2c457b8423303ffccb5a455abce",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\pubsub\\pubsub.js",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\pubsub\\pubsub.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3082,
             "modifiedTime": 1560182643535,
             "changeTime": 1560182643535,
-            "contentHash": "ee79af5add79bb81a10691d1d2bf49db7e990951"
+            "contentHash": "ee79af5add79bb81a10691d1d2bf49db7e990951",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\pubsub\\pubsub.js-meta.xml",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\pubsub\\pubsub.js-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 221,
             "modifiedTime": 1560182634719,
             "changeTime": 1560182634719,
-            "contentHash": "1061aef2761c09db5489ef2c8cf4a7e284627a5d"
+            "contentHash": "1061aef2761c09db5489ef2c8cf4a7e284627a5d",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ]
 ]
