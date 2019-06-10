@@ -31,14 +31,11 @@ export default class RecentAccounts extends LightningElement {
 
   loadWordCloud () {
     if (!this.accounts) {
-      console.log('no accounts yet')
       return
     }
     if (this.cloudInitialized) return
 
     this.cloudInitialized = true
-
-    console.log('accounts length', this.accounts.length)
 
     loadScript(this, WordCloudUrl)
       .then(() => {
@@ -48,7 +45,6 @@ export default class RecentAccounts extends LightningElement {
         canvas.width = width
         canvas.height = width * 0.50
         const words = this.buildWordList()
-        console.log('width', width)
         WordCloud(canvas,
           {
             list: words,
@@ -57,8 +53,7 @@ export default class RecentAccounts extends LightningElement {
           })
       })
       .catch(error => {
-        console.error(JSON.stringify(error))
-        this.error = error
+        this.error = error.message
       })
   }
 
