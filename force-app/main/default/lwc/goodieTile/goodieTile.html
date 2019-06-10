@@ -1,0 +1,23 @@
+<template>
+  <lightning-tile
+    label={goodie.name}
+    onclick={clickGoodie}
+    class={tileSelected}
+    type="media">
+
+    <lightning-avatar slot="media"
+      src={goodie.image_url}
+      fallback-icon-name="standard:contact"
+      alternative-text={goodie.name}></lightning-avatar>
+
+      <div class="slds-grid slds-grid_align-spread">
+        <div class="slds-col">
+          <p class="slds-truncate">Price: ${goodie.price}</p>
+        </div>
+        <div class="slds-col">
+          <input type="radio"
+            checked={isSelected}>
+        </div>
+      </div>
+    </lightning-tile>
+</template>

@@ -1,0 +1,7 @@
+.tile {
+  cursor: pointer;
+}
+
+.selected, .tile:hover {
+  background-color: rgba(176, 196, 223, 0.5);
+}

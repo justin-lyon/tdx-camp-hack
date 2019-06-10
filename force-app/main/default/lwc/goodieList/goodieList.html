@@ -1,0 +1,33 @@
+<template>
+  <lightning-card title="Goodies">
+    <div slot="actions">
+      <lightning-button
+        label="Add"
+        disabled={isDisabled}
+        onclick={addGoodie}
+        variant="brand"></lightning-button>
+    </div>
+
+    <div class="slds-p-horizontal_medium">
+      <ul if:true={goodies}
+        class="slds-has-dividers_bottom-space">
+        <template for:item="goodie" for:each={goodies}>
+          <li key={goodie.id}
+            class="slds-item">
+
+            <c-goodie-tile
+              goodie={goodie}
+              selected-goodie-id={selectedGoodieId}
+              onselected={setSelected}></c-goodie-tile>
+          </li>
+        </template>
+      </ul>
+      <div if:false={goodies}>
+        Loading...
+      </div>
+      <div if:true={error}>
+        Error retrieving the Goodies.
+      </div>
+    </div>
+  </lightning-card>
+</template>

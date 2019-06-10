@@ -1,0 +1,26 @@
+<template>
+  <div if:true={goodie}>
+    <lightning-card title={goodie.name}>
+      <div class="slds-p-horizontal_medium">
+        <lightning-tile
+          label={goodie.name}
+          type="media">
+
+    <lightning-avatar slot="media"
+      src={goodie.image_url}
+      fallback-icon-name="standard:contact"
+      alternative-text={goodie.name}></lightning-avatar>
+
+      <div class="slds-grid slds-grid_align-spread">
+        <div class="slds-col">
+          <p class="slds-truncate">Price: ${goodie.price}</p>
+        </div>
+      </div>
+    </lightning-tile>
+      </div>
+    </lightning-card>
+  </div>
+  <div if:false={goodie}>
+    <lightning-card title="Select a Goodie..."></lightning-card>
+  </div>
+</template>
