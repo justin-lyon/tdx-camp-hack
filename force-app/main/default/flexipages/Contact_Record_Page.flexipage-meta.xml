@@ -26,10 +26,18 @@
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>
-                <name>relatedListComponentOverride</name>
-                <value>NONE</value>
+                <name>parentFieldApiName</name>
+                <value>Contact.Id</value>
             </componentInstanceProperties>
-            <componentName>force:relatedListContainer</componentName>
+            <componentInstanceProperties>
+                <name>relatedListApiName</name>
+                <value>Goodies__r</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>relatedListComponentOverride</name>
+                <value>CARD</value>
+            </componentInstanceProperties>
+            <componentName>force:relatedListSingleContainer</componentName>
         </componentInstances>
         <mode>Replace</mode>
         <name>relatedTabContent</name>
@@ -155,6 +163,9 @@
     <flexiPageRegions>
         <componentInstances>
             <componentName>goodieList</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentName>goodieDetail</componentName>
         </componentInstances>
         <componentInstances>
             <componentInstanceProperties>

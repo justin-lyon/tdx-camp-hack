@@ -162,16 +162,14 @@
     [
         "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\layouts",
         {
+            "state": "u",
             "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\layouts",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1559169886326,
-            "changeTime": 1559169886326,
-            "contentHash": "02faeb4eb64379cf4756cbc4d28eb72df88d0f7a",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 0,
+            "modifiedTime": 1560184791368,
+            "changeTime": 1560184791368,
+            "contentHash": "06dcaaf44dac6e4d758ce167228b3283213f4476"
         }
     ],
     [
@@ -235,15 +233,15 @@
     [
         "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\goodieList\\goodieList.js",
         {
-            "state": "u",
             "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\lwc\\goodieList\\goodieList.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2025,
             "modifiedTime": 1560184390108,
             "changeTime": 1560184390108,
-            "isWorkspace": false,
-            "contentHash": "17b1a5870a1e29958d62e35c5030b9e7e1872aa8"
+            "contentHash": "17b1a5870a1e29958d62e35c5030b9e7e1872aa8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -410,14 +408,14 @@
     [
         "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\flexipages\\Contact_Record_Page.flexipage-meta.xml",
         {
+            "state": "u",
             "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\flexipages\\Contact_Record_Page.flexipage-meta.xml",
             "isDirectory": false,
-            "size": 6612,
-            "modifiedTime": 1560175857113,
-            "changeTime": 1560175857113,
-            "contentHash": "61ec8f1f69e3b65c4bcc33e2206cbfe4da1a6657",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 7083,
+            "modifiedTime": 1560184791388,
+            "changeTime": 1560184791388,
+            "contentHash": "6adb742fe0b7991fc3af1cf0d01369f1026cbd99"
         }
     ],
     [
@@ -1029,6 +1027,19 @@
             "contentHash": "1061aef2761c09db5489ef2c8cf4a7e284627a5d",
             "isMetadataFile": true,
             "state": "u"
+        }
+    ],
+    [
+        "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\layouts\\Contact-Contact Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "c:\\Users\\justin.lyon\\Documents\\workspace\\github\\tdx-camp-hack\\force-app\\main\\default\\layouts\\Contact-Contact Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9777,
+            "modifiedTime": 1560184791372,
+            "changeTime": 1560184791372,
+            "contentHash": "da8a73bed221866648d48d55f899814b8c2de7b7"
         }
     ]
 ]
