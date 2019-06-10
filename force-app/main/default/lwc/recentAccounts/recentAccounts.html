@@ -1,0 +1,16 @@
+<template>
+  <div class="cloudcontainer">
+    <canvas
+      class="mywordcloud"
+      lwc:dom="manual"
+      if:true={accounts} ></canvas>
+  </div>
+
+  <div if:false={accounts}>
+    Loading...
+  </div>
+
+  <div if:true={error}>
+    {error.message}
+  </div>
+</template>

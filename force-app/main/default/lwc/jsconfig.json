@@ -13,6 +13,9 @@
             ],
             "c/pubsub": [
                 "pubsub/pubsub.js"
+            ],
+            "c/recentAccounts": [
+                "recentAccounts/recentAccounts.js"
             ]
         },
         "experimentalDecorators": true
