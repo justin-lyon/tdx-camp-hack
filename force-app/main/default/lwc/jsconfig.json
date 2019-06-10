@@ -4,6 +4,15 @@
         "paths": {
             "c/goodieList": [
                 "goodieList/goodieList.js"
+            ],
+            "c/goodieTile": [
+                "goodieTile/goodieTile.js"
+            ],
+            "c/goodieDetail": [
+                "goodieDetail/goodieDetail.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
             ]
         },
         "experimentalDecorators": true
