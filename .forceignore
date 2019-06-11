@@ -13,4 +13,4 @@ package.xml
 
 # Ignored Metadata
 AppSwitcher.appMenu
-force-app/main/default/profiles/**
+**/profiles/**

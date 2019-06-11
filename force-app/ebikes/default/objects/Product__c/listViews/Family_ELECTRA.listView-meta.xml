@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Family_ELECTRA</fullName>
+    <columns>NAME</columns>
+    <columns>MSRP__c</columns>
+    <columns>Category__c</columns>
+    <columns>Level__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product_Family__c</field>
+        <operation>equals</operation>
+        <value>ELECTRA</value>
+    </filters>
+    <label>Family - ELECTRA</label>
+</ListView>
