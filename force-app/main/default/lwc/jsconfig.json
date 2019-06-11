@@ -11,11 +11,56 @@
             "c/goodieTile": [
                 "goodieTile/goodieTile.js"
             ],
+            "c/productItem": [
+                "productItem/productItem.js"
+            ],
+            "c/productList": [
+                "productList/productList.js"
+            ],
             "c/pubsub": [
-                "pubsub/pubsub.js"
+                "../../../ebikes/default/lwc/pubsub/pubsub.js"
             ],
             "c/recentAccounts": [
                 "recentAccounts/recentAccounts.js"
+            ],
+            "c/accountMap": [
+                "../../../ebikes/default/lwc/accountMap/accountMap.js"
+            ],
+            "c/inlineMessage": [
+                "../../../ebikes/default/lwc/inlineMessage/inlineMessage.js"
+            ],
+            "c/ldsUtils": [
+                "../../../ebikes/default/lwc/ldsUtils/ldsUtils.js"
+            ],
+            "c/orderBuilder": [
+                "../../../ebikes/default/lwc/orderBuilder/orderBuilder.js"
+            ],
+            "c/orderItemTile": [
+                "../../../ebikes/default/lwc/orderItemTile/orderItemTile.js"
+            ],
+            "c/paginator": [
+                "../../../ebikes/default/lwc/paginator/paginator.js"
+            ],
+            "c/placeholder": [
+                "../../../ebikes/default/lwc/placeholder/placeholder.js"
+            ],
+            "c/productCard": [
+                "../../../ebikes/default/lwc/productCard/productCard.js"
+            ],
+            "c/productFilter": [
+                "../../../ebikes/default/lwc/productFilter/productFilter.js"
+            ],
+            "c/productListItem": [
+                "../../../ebikes/default/lwc/productListItem/productListItem.js"
+            ],
+            "c/productTile": [
+                "../../../ebikes/default/lwc/productTile/productTile.js"
+            ],
+            "c/productTileList": [
+                "../../../ebikes/default/lwc/productTileList/productTileList.js"
+            ],
+            "c/similarProducts": [
+                "../../../ebikes/default/lwc/similarProducts/similarProducts.js"
             ]
         },
         "experimentalDecorators": true
