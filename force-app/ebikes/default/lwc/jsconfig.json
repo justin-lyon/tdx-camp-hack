@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "c/goodieDetail": [
+                "../../../main/default/lwc/goodieDetail/goodieDetail.js"
+            ],
+            "c/goodieList": [
+                "../../../main/default/lwc/goodieList/goodieList.js"
+            ],
+            "c/goodieTile": [
+                "../../../main/default/lwc/goodieTile/goodieTile.js"
+            ],
+            "c/pubsub": [
+                "../../../main/default/lwc/pubsub/pubsub.js"
+            ],
+            "c/recentAccounts": [
+                "../../../main/default/lwc/recentAccounts/recentAccounts.js"
+            ]
+        }
+    }
+}
