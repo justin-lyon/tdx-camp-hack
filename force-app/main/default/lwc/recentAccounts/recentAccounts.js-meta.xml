@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="recentAccounts">
+    <apiVersion>45.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Recently Accessed Accounts</masterLabel>
+    <description>List of recently accessed Accounts.</description>
+    <targets>
+      <target>lightning__HomePage</target>
+    </targets>
+    <targetConfigs>
+      <targetConfig targets="lightning__HomePage">
+        <property label="Max" name="max" type="Integer" default="20" />
+      </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

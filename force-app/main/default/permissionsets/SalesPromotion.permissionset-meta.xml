@@ -6,7 +6,7 @@
     </applicationVisibilities>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Goodie__c.Currency__c</field>
+        <field>Goodie__c.Price__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
