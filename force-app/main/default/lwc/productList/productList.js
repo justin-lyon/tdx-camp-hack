@@ -1,3 +1,4 @@
+import { NavigationMixin } from 'lightning/navigation'
 import { LightningElement, api, track, wire } from 'lwc'
 import { getRecord } from 'lightning/uiRecordApi'
 import { getListUi } from 'lightning/uiListApi'
@@ -5,12 +6,11 @@ import PRODUCT from '@salesforce/schema/Product__c'
 import PRODUCT_FAMILY_NAME from '@salesforce/schema/Product_Family__c.Name'
 
 const LIST_VIEW_PREFIX = 'Family_'
-export default class ProductList extends LightningElement {
+export default class ProductList extends NavigationMixin(LightningElement) {
   @api recordId
   @track error
 
   @track products
-  @track selectedProductId
 
   @track family
   @track listViewName
@@ -36,7 +36,7 @@ export default class ProductList extends LightningElement {
   }
 
   @wire(getListUi, { objectApiName: PRODUCT, listViewApiName: '$listViewName' })
-  handleFamilies({ error, data }) {
+  handleProducts({ error, data }) {
     if (data) {
       const products = data.records.records.map(record => {
         return {
@@ -44,7 +44,8 @@ export default class ProductList extends LightningElement {
           Id: record.fields.Id.value,
           Category__c: record.fields.Category__c.value,
           Level__c: record.fields.Level__c.value,
-          MSRP__c: record.fields.MSRP__c.value
+          MSRP__c: record.fields.MSRP__c.value,
+          Picture_URL__c: record.fields.Picture_URL__c.value
         }
       })
       this.products = products
@@ -57,8 +58,14 @@ export default class ProductList extends LightningElement {
     this.listViewName = LIST_VIEW_PREFIX + this.family.Name.toUpperCase()
   }
 
-  // surface in Product Family record page
-  // wire this product family record
-  // get products by family through listview
-  // iterate over products to c-product-item
+  gotoProduct (event) {
+    this[NavigationMixin.Navigate]({
+      type: 'standard__recordPage',
+      attributes: {
+        objectApiName: 'Product__c',
+        recordId: event.detail.productId,
+        actionName: 'view'
+      }
+    })
+  }
 }

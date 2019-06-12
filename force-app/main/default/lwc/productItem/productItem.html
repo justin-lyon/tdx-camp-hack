@@ -1,5 +1,10 @@
 <template>
-  <lightning-tile label={product.Name}>
-    tile body
-  </lightning-tile>
+  <div class="tile" onclick={clickProduct}>
+    <div class="innertile">
+      <img src={product.Picture_URL__c} alt={product.Name} class="backdrop">
+      <div class="lower-third">
+        {product.Name} - {price}
+      </div>
+    </div>
+  </div>
 </template>

@@ -2,15 +2,18 @@
   <div if:true={family}>
     <lightning-card title={familyTitle}>
       <div class="slds-p-horizontal_medium">
-        <ul class="slds-has-dividers_bottom-space">
+        <div class="slds-grid slds-wrap">
           <template for:item="product" for:each={products} >
-            <li
-              class="slds-item"
+            <div
+              class="slds-col slds-p-around_small slds-size_1-of-2"
               key={product.Id}>
-              <c-product-item product={product}></c-product-item>
-            </li>
+
+              <c-product-item
+                onnavproduct={gotoProduct}
+                product={product}></c-product-item>
+            </div>
           </template>
-        </ul>
+        </div>
       </div>
     </lightning-card>
   </div>

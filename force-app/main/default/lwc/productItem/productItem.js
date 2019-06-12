@@ -3,6 +3,14 @@ import { LightningElement, api } from 'lwc'
 export default class ProductItem extends LightningElement {
   @api product
 
-  // display: image, name, price
-  // button: click nav to product detail record
+  get price () {
+    return '$' + this.product.MSRP__c.toFixed(2)
+  }
+
+  clickProduct () {
+    const click = new CustomEvent('navproduct', {
+      detail: { productId: this.product.Id }
+    })
+    this.dispatchEvent(click)
+  }
 }

@@ -5,6 +5,7 @@
     <columns>MSRP__c</columns>
     <columns>Category__c</columns>
     <columns>Level__c</columns>
+    <columns>Picture_URL__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>Product_Family__c</field>
