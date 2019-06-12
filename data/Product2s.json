@@ -1,0 +1,140 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref1"
+            },
+            "Name": "GenWatt Diesel 1000kW",
+            "ProductCode": "GC1060"
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref2"
+            },
+            "Name": "SLA: Platinum",
+            "ProductCode": "SL9080"
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref3"
+            },
+            "Name": "GenWatt Propane 1500kW",
+            "ProductCode": "GC3060"
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref4"
+            },
+            "Name": "GenWatt Gasoline 750kW",
+            "ProductCode": "GC5040"
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref5"
+            },
+            "Name": "Installation: Industrial - Low",
+            "ProductCode": "IN7040"
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref6"
+            },
+            "Name": "GenWatt Gasoline 300kW",
+            "ProductCode": "GC5020"
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref7"
+            },
+            "Name": "Installation: Industrial - High",
+            "ProductCode": "IN7080"
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref8"
+            },
+            "Name": "GenWatt Diesel 10kW",
+            "ProductCode": "GC1020"
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref9"
+            },
+            "Name": "Installation: Portable",
+            "ProductCode": "IN7020"
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref10"
+            },
+            "Name": "SLA: Bronze",
+            "ProductCode": "SL9020"
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref11"
+            },
+            "Name": "GenWatt Diesel 200kW",
+            "ProductCode": "GC1040"
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref12"
+            },
+            "Name": "GenWatt Gasoline 2000kW",
+            "ProductCode": "GC5060"
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref13"
+            },
+            "Name": "SLA: Gold",
+            "ProductCode": "SL9060"
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref14"
+            },
+            "Name": "GenWatt Propane 100kW",
+            "ProductCode": "GC3020"
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref15"
+            },
+            "Name": "Installation: Industrial - Medium",
+            "ProductCode": "IN7060"
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref16"
+            },
+            "Name": "GenWatt Propane 500kW",
+            "ProductCode": "GC3040"
+        },
+        {
+            "attributes": {
+                "type": "Product2",
+                "referenceId": "Product2Ref17"
+            },
+            "Name": "SLA: Silver",
+            "ProductCode": "SL9040"
+        }
+    ]
+}

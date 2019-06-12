@@ -1,0 +1,77 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "c/goodieDetail": [
+                "../../../main/default/lwc/goodieDetail/goodieDetail.js"
+            ],
+            "c/goodieList": [
+                "../../../main/default/lwc/goodieList/goodieList.js"
+            ],
+            "c/goodieTile": [
+                "../../../main/default/lwc/goodieTile/goodieTile.js"
+            ],
+            "c/productItem": [
+                "../../../main/default/lwc/productItem/productItem.js"
+            ],
+            "c/productList": [
+                "../../../main/default/lwc/productList/productList.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/recentAccounts": [
+                "../../../main/default/lwc/recentAccounts/recentAccounts.js"
+            ],
+            "c/accountMap": [
+                "accountMap/accountMap.js"
+            ],
+            "c/inlineMessage": [
+                "inlineMessage/inlineMessage.js"
+            ],
+            "c/ldsUtils": [
+                "ldsUtils/ldsUtils.js"
+            ],
+            "c/orderBuilder": [
+                "orderBuilder/orderBuilder.js"
+            ],
+            "c/orderItemTile": [
+                "orderItemTile/orderItemTile.js"
+            ],
+            "c/paginator": [
+                "paginator/paginator.js"
+            ],
+            "c/placeholder": [
+                "placeholder/placeholder.js"
+            ],
+            "c/productCard": [
+                "productCard/productCard.js"
+            ],
+            "c/productFilter": [
+                "productFilter/productFilter.js"
+            ],
+            "c/productListItem": [
+                "productListItem/productListItem.js"
+            ],
+            "c/productTile": [
+                "productTile/productTile.js"
+            ],
+            "c/productTileList": [
+                "productTileList/productTileList.js"
+            ],
+            "c/similarProducts": [
+                "similarProducts/similarProducts.js"
+            ]
+        },
+        "experimentalDecorators": true
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

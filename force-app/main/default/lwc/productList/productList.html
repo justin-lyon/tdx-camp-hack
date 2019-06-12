@@ -1,0 +1,29 @@
+<template>
+  <div if:true={family}>
+    <lightning-card title={familyTitle}>
+      <div class="slds-p-horizontal_medium">
+        <div class="slds-grid slds-wrap">
+          <template for:item="product" for:each={products} >
+            <div
+              class="slds-col slds-p-around_small slds-size_1-of-2"
+              key={product.Id}>
+
+              <c-product-item
+                onnavproduct={gotoProduct}
+                product={product}></c-product-item>
+            </div>
+          </template>
+        </div>
+      </div>
+    </lightning-card>
+  </div>
+
+  <div if:false={family}>
+    <div if:true={error}>
+      {error.message}
+    </div>
+    <div if:false={error}>
+      Loading...
+    </div>
+  </div>
+</template>
