@@ -1,3 +1,26 @@
 <template>
-    
+  <div if:true={family}>
+    <lightning-card title={familyTitle}>
+      <div class="slds-p-horizontal_medium">
+        <ul class="slds-has-dividers_bottom-space">
+          <template for:item="product" for:each={products} >
+            <li
+              class="slds-item"
+              key={product.Id}>
+              <c-product-item product={product}></c-product-item>
+            </li>
+          </template>
+        </ul>
+      </div>
+    </lightning-card>
+  </div>
+
+  <div if:false={family}>
+    <div if:true={error}>
+      {error.message}
+    </div>
+    <div if:false={error}>
+      Loading...
+    </div>
+  </div>
 </template>

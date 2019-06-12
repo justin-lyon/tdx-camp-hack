@@ -9,7 +9,7 @@
     <filters>
         <field>Product_Family__c</field>
         <operation>equals</operation>
-        <value>ELECTRA</value>
+        <value>FUSE</value>
     </filters>
     <label>Family - FUSE</label>
 </ListView>
